@@ -1,0 +1,7 @@
+name: cbtest
+
+services:
+  append:
+    build: ./append
+    volumes:
+      -  ./foo:/root/foo
