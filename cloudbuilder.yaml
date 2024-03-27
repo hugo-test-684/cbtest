@@ -1,4 +1,3 @@
 steps:
   - name: 'docker/compose'
     args: ['up', '-d']
-    dir: '/root/server'
