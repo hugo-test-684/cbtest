@@ -1,5 +1,3 @@
-name: cbtest
-
 services:
   append:
     build: ./append
