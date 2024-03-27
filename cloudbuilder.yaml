@@ -1,4 +1,4 @@
 steps:
   - name: 'docker/compose'
-    args: ['up', '-d']
+    args: ['-f', '/workspace/docker-compose.yaml', 'up', '-d']
     dir: '/root/server'
