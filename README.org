@@ -1,3 +1,5 @@
 * Testing Cloud Build triggers
 
 Whenever ~docker compose up -d~ is invoked, a date is added to the ~./foo/bar~ file.
+
+This is a test.
